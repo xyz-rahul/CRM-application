@@ -1,0 +1,41 @@
+# Node.js dependencies and pnpm-related files
+node_modules/
+.pnpm/
+.pnpm-debug.log*
+.pnpm-store/
+
+# Build outputs (common for JS/TS projects)
+dist/
+build/
+.esbuild/
+.vite/
+.cache/
+out/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Test coverage
+coverage/
+*.lcov
+
+
