@@ -1,10 +1,10 @@
 import './App.css'
-import Button from '@lib/ui/button'
+import SidebarButton from '@lib/ui/sidebarButton'
 function App() {
     return (
         <>
             <div>
-                <Button />
+                <SidebarButton selected={true}>this is a button</SidebarButton>
             </div>
         </>
     )
